@@ -13,7 +13,6 @@ export default function LandingPage({ aboutRef, homeRef, contactRef, resumeRef }
 
     return (
         <>
-            <FullWidthLayout bgcolor={colors().green} display={<Greeting homeRef={homeRef} />} />
             <FullWidthLayout bgcolor={colors().white} display={<About aboutRef={aboutRef} />} />
             <FullWidthLayout bgcolor={colors().white} display={<WorkExperience resumeRef={resumeRef} />} />
             <FullWidthLayout bgcolor={colors().white} display={<Projects />}/>
