@@ -1,7 +1,7 @@
 import { Box, Typography, useMediaQuery } from "@mui/material";
 import { colors } from "../theme/colors";
-import armin1 from '../images/armin.jpeg';
-import armin2 from '../images/armin3.jpeg';
+import armin1 from '../images/armin3.jpeg';
+import armin2 from '../images/armin.jpeg';
 
 import { fonts } from "../theme/fonts";
 
