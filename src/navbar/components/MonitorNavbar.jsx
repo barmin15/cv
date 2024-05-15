@@ -81,7 +81,7 @@ export function MonitorNavbar({
         { page: 'Home', scroll: scrollToHome },
         { page: 'About', scroll: scrollToAbout },
         { page: 'Resumé', scroll: scrollToResume },
-        { page: 'Conatact', scroll: scrollTocontact }
+        { page: 'Contact', scroll: scrollTocontact }
     ]
 
     return <Box sx={{

@@ -8,9 +8,6 @@ function Navbar(props) {
     const { window } = props;
     const [mobileOpen, setMobileOpen] = useState(false);
 
-
-  
-
     //handle opening the drawer on mobilke devices
     const handleDrawerToggle = () => {
         setMobileOpen((prevState) => !prevState);
